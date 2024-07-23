@@ -1,0 +1,61 @@
+html {
+  background-color: #2e3440;
+  color: #fff;
+}
+
+body {
+  margin: 0px;
+  font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+}
+
+.title {
+  font-family: "Montserrat Alternates", "Arial", "sans-serif";
+}
+
+#particles-js {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.particles-js-canvas-el {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.content {
+  z-index: 1;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-direction: row;
+}
+
+.links a {
+  color: grey;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.copy {
+  color: grey;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: underline;
+}

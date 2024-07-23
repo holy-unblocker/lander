@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@layouts/*": ["src/layouts/*"],
+      "@lib/*": ["src/lib/*"],
+      "@icons/*": ["src/icons/*"],
+      "@styles/*": ["src/styles/*"],
+      "@components/*": ["src/components/*"],
+    }
+  },
+  "extends": "astro/tsconfigs/strict",
+  "exclude": ["dist", "public"]
+}

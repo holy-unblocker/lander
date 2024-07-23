@@ -1,0 +1,22 @@
+{
+  "name": "landing",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.8.2",
+    "@astrojs/node": "^8.3.2",
+    "@fontsource/catamaran": "^5.0.20",
+    "@fontsource/lato": "^5.0.21",
+    "@fontsource/montserrat-alternates": "^5.0.13",
+    "astro": "^4.12.2",
+    "particlesjs": "^2.2.3",
+    "typescript": "^5.5.4"
+  }
+}
